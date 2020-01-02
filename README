@@ -1,6 +1,8 @@
-编译命令如下（引用大雕的README）:
+创了个讨论交流群，有兴趣的朋友们可[点击加入](https://t.me/opdiscuss)
 
 我的APP源码：https://github.com/Lienol/openwrt-package
+
+编译命令如下（引用大雕的README）:
 
 1. 首先装好 Ubuntu 64bit，推荐  Ubuntu  14 LTS x64
 
