@@ -1,6 +1,9 @@
-创了个讨论交流群，有兴趣的朋友们可[点击加入](https://t.me/opdiscuss)
 
 我的APP源码：https://github.com/Lienol/openwrt-package
+
+本源码生成的固件禁止使用在任何非法、商业用途！
+
+[OP讨论交流群](https://t.me/opdiscuss)
 
 编译命令如下（引用大雕的README）:
 
