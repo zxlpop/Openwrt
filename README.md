@@ -1,6 +1,9 @@
-创了个讨论交流群，有兴趣的朋友们可[点击加入](https://t.me/opdiscuss)
 
 我的APP源码：https://github.com/Lienol/openwrt-package
+
+本源码生成的固件禁止使用在任何非法、商业用途！
+
+[OP讨论交流群](https://t.me/opdiscuss)
 
 编译命令如下（引用大雕的README）:
 
@@ -12,8 +15,11 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 3. git clone https://github.com/Lienol/openwrt 命令下载好源代码，然后 cd openwrt 进入目录
 
 4. ./scripts/feeds clean
+
    ./scripts/feeds update -a
+   
    ./scripts/feeds install -a
+   
    make menuconfig 
 
 5. 最后选好你要的路由，输入 make -j1 V=s （-j1 后面是线程数。第一次编译推荐用单线程，国内请尽量全局科学上网）即可开始编译你要的固件了。
