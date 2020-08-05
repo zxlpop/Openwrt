@@ -2,7 +2,6 @@ DEVICE_VARS += TPLINK_FLASHLAYOUT TPLINK_HWID TPLINK_HWREV TPLINK_HWREVADD TPLIN
 
 define Device/lantiqTpLink
   DEVICE_VENDOR := TP-Link
-  SOC := vr9
   TPLINK_HWREVADD := 0
   TPLINK_HVERSION := 2
   KERNEL := kernel-bin | append-dtb | lzma
@@ -10,7 +9,7 @@ define Device/lantiqTpLink
 	tplink-v2-header -s -V "ver. 1.0"
   IMAGES := sysupgrade.bin
   IMAGE/sysupgrade.bin := tplink-v2-image -s -V "ver. 1.0" | \
-	append-metadata | check-size $$$$(IMAGE_SIZE)
+	append-metadata | check-size
 endef
 
 define Device/tplink_tdw8970
